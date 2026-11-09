@@ -1,8 +1,8 @@
-# print 1 to n using recursion 
+# print 1 to n using head recursion 
  
 def fun(i,n):
     if(i>n):
         return
-    fun(i+1,n)
     print(i)
+    fun(i+1,n)
 fun(1,4)
