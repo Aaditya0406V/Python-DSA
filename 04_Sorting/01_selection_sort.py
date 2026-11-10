@@ -11,3 +11,6 @@ def selection_sort(lst):
     return lst
 
 print(selection_sort(lst))
+
+# Time Complexity = O(N^2)
+# Space Complexity = O(1)
